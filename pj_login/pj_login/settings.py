@@ -130,6 +130,8 @@ LOGOUT_REDIRECT_URL = "/login"
 #SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 #SECURE_SSL_REDIRECT = True
 
+AUTH_USER_MODEL = 'registration.User'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
